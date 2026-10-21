@@ -1,0 +1,12 @@
+{
+ "num": 1,
+ "empresa": "Filamenta Lab",
+ "subtitulo": "impresión 3D bajo pedido",
+ "contexto": "Filamenta Lab quiere saber, cada mañana y sin abrir un cuaderno, qué impresoras y qué piezas le hacen perder dinero. Y ha instalado sensores de temperatura en las boquillas.",
+ "preguntas": [
+  "¿Qué **tipo de pieza** deja menos ingreso por hora de impresión?",
+  "¿Qué **operario** gasta más filamento por hora de impresión?",
+  "¿Qué **impresora** acumula más incidencias por cada 100 horas de impresión?",
+  "¿Qué impresora pasa más tiempo con la boquilla **fuera del rango de temperatura de su material**? ¿Explica eso lo que viste en la pregunta 3?"
+ ]
+}

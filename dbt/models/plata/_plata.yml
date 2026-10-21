@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: stg_parte
+    description: "El parte diario limpio, con las dos entregas"
+    columns:
+      - name: pedido
+        data_tests: [unique, not_null]
+      - name: operario
+        data_tests: [not_null]
+      - name: tipo_pieza
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["prototipo", "figura", "repuesto", "maqueta", "joyería", "cosplay", "carcasa", "señalética"]

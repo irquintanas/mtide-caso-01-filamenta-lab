@@ -1,0 +1,5 @@
+material,temp_min_c,temp_max_c,coste_kg_eur
+PLA,190,220,20.0
+PETG,230,250,25.0
+ABS,240,260,22.0
+TPU,210,230,35.0
